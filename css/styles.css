@@ -1,0 +1,104 @@
+/* generic settings for site */
+
+body {
+  margin:0px auto 0px auto;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1rem; 
+  text-align: center;
+  background-color: #e6ddde;
+  color: #443235;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+/* container settings */
+
+.top-container {
+  position: relative;
+  top: 40px;
+  padding-top: 30px; 
+}
+
+.middle-container {
+  margin: 0px auto 50px auto;
+}
+
+.bottom-container {
+  position:relative;
+  top: 60px;
+}
+
+/* header settings */
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Prata', serif;
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  position: relative;
+  bottom: 80px;
+  font-size: 2.5rem;
+  color: #654a4e;
+  font-weight: normal;
+}
+
+/* specific HR settings */
+
+hr {
+  border-color: #654a4e;
+  border-style: solid none none none;
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+hr.flowing {
+  border-width: 10px;
+  border-style: dotted none none;
+  width: 20%;
+  margin: 50px auto 15px auto;
+}
+
+hr.dramatic {
+  margin: auto 80px auto 80px;
+}
+
+/* class specific settings */
+
+.itenary {
+  font-family:'Sofia', serif;
+}
+
+.games{
+  width:50%;
+  margin:100px auto 100px auto;
+}
+
+/* text formatting - specific settings */
+
+.ay {
+  color: #654a4e; 
+}
+
+.se {
+  font-weight: bold;
+}
+
+.weird {
+  font-style: italic;
+}
+
+
+/* image formatting - specific images */
+
+.thinking {
+  width: 15%;
+  float: left;
+}
+
+.gun {
+  width:15%;
+  float: right;
+}
