@@ -50,7 +50,6 @@ h2 {
 hr {
   border-color: #654a4e;
   border-style: solid none none none;
-  margin: 0 auto 0 auto;
   width: 100%;
 }
 
@@ -58,11 +57,10 @@ hr.flowing {
   border-width: 10px;
   border-style: dotted none none;
   width: 20%;
-  margin: 50px auto 15px auto;
 }
 
 hr.dramatic {
-  margin: auto 80px auto 80px;
+  width: 80%;
 }
 
 /* class specific settings */
